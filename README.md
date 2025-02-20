@@ -70,7 +70,7 @@ Il nous faut des couverts !
     - ``` sudo apt-get install gdb ```
     - GDB sera connecté à QEMU et permet d'afficher les problèmes potentiels
 
-> ***Remarque :***   
+> [!NOTE]
 > Les commandes données sont pour environnement Debian et dérivés (j'utilise Ubuntu). A adapter en fonction de votre distribution Linux.   
 > Sous Mac : Utiliser les outils `gcc` pour x86 disponible via les `macports` (paquet `i386-elf-gcc`).
 
@@ -104,4 +104,3 @@ Le répertoire fourni contient :
   - Lancer l'exécution : `cont` ou `r`
   - Afficher un variable : `display` nom de la variable
   - `n`: Next, `s` : Step
-  
