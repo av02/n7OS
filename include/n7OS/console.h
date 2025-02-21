@@ -32,8 +32,8 @@
 #define WHITE   0xF
 
 // Character color: blink|back|text
-#define BLINK   0<<7
-#define BACK    BLACK<<4
+#define BLINK   (0<<7)
+#define BACK    (BLACK<<4)
 #define TEXT    WHITE 
 #define CHAR_COLOR (BLINK|BACK|TEXT)
 
