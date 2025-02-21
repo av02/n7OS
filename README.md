@@ -83,7 +83,7 @@ Le répertoire fourni contient :
 - `/boot` 
   - répertoire d'entrée du système ;
   - `crt0.S` initialise le matériel et lance le programme principal du système (`kernel_start`)
-- `/kernel
+- `/kernel`
   - répertoire sources du noyau
   - c'est ici que tout (ou presque) va se passer
 - `/lib`
