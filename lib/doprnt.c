@@ -44,7 +44,7 @@
 #define TRUE ((unsigned char) 1)
 #include <stdarg.h>
 #include <string.h>	/* strlen */
-#include <doprnt.h>
+#include <n7OS/doprnt.h>
 
 /*
  *  Common code for printf et al.

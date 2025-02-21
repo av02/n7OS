@@ -2,6 +2,7 @@
 #include <inttypes.h>
 #include <n7OS/processor_structs.h>
 #include <n7OS/console.h>
+#include <stdio.h>
 
 void kernel_start(void)
 {
@@ -13,6 +14,7 @@ void kernel_start(void)
 
     // on ne doit jamais sortir de kernel_start
     while (1) {
+        printf("abcd");
         // cette fonction arrete le processeur
         hlt();
     }

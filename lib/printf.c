@@ -45,7 +45,7 @@
  */
 
 #include <stdarg.h>
-#include <doprnt.h>
+#include <n7OS/doprnt.h>
 #include <n7OS/console.h>
 
 /*

@@ -41,7 +41,7 @@
  */
 
 #include <stdarg.h>
-#include <doprnt.h>
+#include <n7OS/doprnt.h>
 
 #define SPRINTF_UNLIMITED 0xFFFFFFFF
 struct sprintf_state {
