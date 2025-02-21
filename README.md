@@ -59,15 +59,15 @@ Il nous faut des couverts !
 
 - Compilation : GCC 
   
-  ``` sudo apt-get install build-essentials} ```
+  ```sudo apt-get install build-essentials```
 
 - Exécution : QEMU
    
-  ``` sudo apt-get install qemu```
+  ```sudo apt-get install qemu```
 
 - Mise au point : GDB
     
-    - ``` sudo apt-get install gdb ```
+    - ```sudo apt-get install gdb```
     - GDB sera connecté à QEMU et permet d'afficher les problèmes potentiels
 
 > [!NOTE]
@@ -83,7 +83,7 @@ Le répertoire fourni contient :
 - `/boot` 
   - répertoire d'entrée du système ;
   - `crt0.S` initialise le matériel et lance le programme principal du système (`kernel_start`)
-- `/kernel
+- `/kernel`
   - répertoire sources du noyau
   - c'est ici que tout (ou presque) va se passer
 - `/lib`
