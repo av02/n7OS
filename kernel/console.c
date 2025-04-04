@@ -13,6 +13,7 @@ void console_putchar(const char c) {
         scr_tab[curseur_index]= CHAR_COLOR<<8|c;
         curseur_index++;
     }//TODO: gestion des caractères echapés
+    //TODO: gestion du eoaff
 }
 
 void console_putbytes(const char *s, int len) {
