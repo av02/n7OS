@@ -11,10 +11,10 @@ void kernel_start(void)
 
     // lancement des interruptions
     sti();
-
+    printf("abcd");
     // on ne doit jamais sortir de kernel_start
     while (1) {
-        printf("abcd");
+        
         // cette fonction arrete le processeur
         hlt();
     }
